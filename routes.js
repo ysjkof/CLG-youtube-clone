@@ -1,3 +1,4 @@
+// make 3rd. 2.8강.
 // Global
 const HOME = '/';
 const JOIN = '/join';
