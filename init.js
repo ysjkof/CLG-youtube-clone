@@ -2,7 +2,7 @@
 // package에서 script index.js -> init.js로 변경.
 import app from "./app";
 
-const PORT = 4000;
+const PORT = 3000;
 
 const handleListening = () => {
   console.log(`✅ Listening on: http://localhost:${PORT}`);

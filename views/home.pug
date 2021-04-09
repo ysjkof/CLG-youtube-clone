@@ -2,3 +2,7 @@ extend layouts/main
 
 block content
   h1 #{pageTitle}
+  form(action="/read", method="post", enctype="multipart/form-data")
+    input(type='text' name='title')
+    input(type="file", name="txtfile", accept=".txt")
+    input(type="submit" value="Convert!")
